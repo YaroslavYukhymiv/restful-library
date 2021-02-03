@@ -14,14 +14,7 @@ public class Book {
 
     private boolean free;
 
-//    @OneToOne
-//    private User user;
-
     public Book(){}
-
-    public Book(int id) {
-        this.id = id;
-    }
 
     public int getId() {
         return id;
@@ -64,12 +57,4 @@ public class Book {
                 ", free=" + free +
                 '}';
     }
-
-    //    public User getUsers() {
-//        return user;
-//    }
-//
-//    public void setUser(User user) {
-//        this.user = user;
-//    }
 }
